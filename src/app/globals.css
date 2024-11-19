@@ -17,5 +17,19 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
+@font-face {
+  font-family: 'integral-cf'; /* Replace with your font name */
+  src: url('/public/fonts/Fontspring-DEMO-integralcf-extraboldoblique.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont2'; /* Replace with another font name */
+  src: url('/fonts/font-file2.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
